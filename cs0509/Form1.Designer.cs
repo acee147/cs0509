@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            buttonProperty = new Button();
             SuspendLayout();
             // 
-            // button1
+            // buttonProperty
             // 
-            button1.BackColor = SystemColors.Info;
-            button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(0, 43);
-            button1.Name = "button1";
-            button1.Size = new Size(803, 73);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            buttonProperty.BackColor = SystemColors.Info;
+            buttonProperty.ForeColor = SystemColors.ActiveCaptionText;
+            buttonProperty.Location = new Point(301, 138);
+            buttonProperty.Name = "buttonProperty";
+            buttonProperty.Size = new Size(150, 151);
+            buttonProperty.TabIndex = 0;
+            buttonProperty.Text = "button1";
+            buttonProperty.UseVisualStyleBackColor = false;
+            buttonProperty.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            Controls.Add(buttonProperty);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -56,6 +56,6 @@
 
         #endregion
 
-        private Button button1;
+        private Button buttonProperty;
     }
 }
