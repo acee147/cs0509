@@ -35,12 +35,13 @@
             // 
             button1.BackColor = SystemColors.Info;
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(0, 0);
+            button1.Location = new Point(0, 43);
             button1.Name = "button1";
-            button1.Size = new Size(75, 73);
+            button1.Size = new Size(803, 73);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
