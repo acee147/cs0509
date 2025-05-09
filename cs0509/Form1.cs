@@ -13,9 +13,21 @@ namespace cs0509
             MessageBox.Show("hello");
 
             buttonProperty.Text = "‰Ÿ‚³‚ê‚½";
-            buttonProperty.Left = 0;
+            buttonProperty.Left = 5;
             buttonProperty.Visible = true;
-            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            button1.Left = button1.Left * 2;
+
+            // C³: buttonProperty ‚É button1 ‚ğ‘ã“ü‚·‚é‚¾‚¯‚É•ÏX
+            buttonProperty = button1;
+
+            // C³: •s³‚È‘ã“ü‚ğíœ
+            // buttonProperty = button1 = 2;
+
+            button1.Top = button1.Top + 1; buttonProperty.Visible = true;
         }
     }
 }
